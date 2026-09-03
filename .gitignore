@@ -1,0 +1,42 @@
+# Tableau temporary and backup files
+*.tmp
+*.temp
+*.bak
+
+# Tableau extracts and local data
+*.hyper
+*.tde
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Python cache (if Python is used later)
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.log
+*.swp
+*.swo
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# Personal/local files
+*.local
